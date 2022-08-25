@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: 0031OW744
+Build-Jdk: 17.0.4
+Implementation-Title: veda-itg-core
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.viteos.itg
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/veda-itg-core
+Created-By: Maven Integration for Eclipse
+

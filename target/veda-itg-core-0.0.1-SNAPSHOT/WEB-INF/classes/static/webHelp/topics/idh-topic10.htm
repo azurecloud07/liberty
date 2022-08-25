@@ -1,0 +1,623 @@
+<!DOCTYPE HTML>
+<html id="hs-topic-p">
+<head>
+<title>New Entity Creation - Baseline</title>
+<meta charset="windows-1252" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content="HelpSmith 8.1 (Build 19.503)" />
+<style type="text/css" media="screen">
+html {
+  height: 100%;
+}
+body {
+  background-color: #f0f3f7;
+  margin: 12px 0 12px 0;
+}
+</style>
+<link type="text/css" rel="stylesheet" href="../css/topics/style.css" />
+<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../js/settings.js?c06802db"></script>
+<script type="text/javascript" src="../js/core.min.js?751b827b"></script>
+<script type="text/javascript" src="../js/topic.min.js?751b827b"></script>
+<script type="text/javascript">
+	var topicContext = 10;
+</script>
+</head>
+<body>
+<div>
+  <table class="align-c tbl0">
+    <tr class="row0">
+      <td class="cell0">
+        <p>&nbsp;</p>
+      </td>
+      <td class="cell1">
+        <div>
+          <table class="align-c tbl1">
+            <tr class="row0">
+              <td class="cell0">
+                <p>&nbsp;</p>
+              </td>
+              <td class="cell1">
+                <div>
+                  <table class="align-c tbl2">
+                    <tr class="row0">
+                      <td class="cell0">
+                        <p class="ps0"><span class="ts0">Navigation: &lt;Root level&gt;</span></p>
+                        <p class="ps1"><span class="ts1">New Entity Creation - Baseline</span></p>
+                      </td>
+                      <td class="cell1">
+                        <p class="ps2"><img width="32" height="32" alt="" src="images/navigation%20links/previous%20disabled%20bluetriangles32.png" /><a href="idh-topic20.htm" title="Use case 1"><img width="32" height="32" alt="" src="images/navigation%20links/next%20bluetriangles32.png" /></a></p>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </td>
+              <td class="cell0">
+                <p>&nbsp;</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell0">
+                <p>&nbsp;</p>
+              </td>
+              <td class="cell2">
+                <p class="ps3"><span class="ts2">&nbsp;</span></p>
+                <p>&nbsp;</p>
+                <p class="ps4"><span style="font-size: 16pt; color: Black">1.</span><span style="display: inline-block; width: 33px"></span><span class="ts3">Overview</span></p>
+                <p class="ps5">&nbsp;</p>
+                <p class="ps6"><span class="ts4">&nbsp;&ldquo;NEC (New Entity Creation) is the process of establishing a new legal entity.&rdquo;</span></p>
+                <p class="ps7"><span class="ts5">Creating a new entity is composed of a number of </span><span class="ts4">entity administration</span><span class="ts5">&nbsp;tasks: business acceptance, information gathering, risk qualification, first level of approval, document creation, quality control review, and then the act of&nbsp; incorporation, provided as a service by Intertrust to the client. </span></p>
+                <p class="ps7"><span class="ts5">The determination of whether or not Intertrust proceeds to deliver the above services is covered by the risk management process of </span><span class="ts4">relationship KYC. Relationship KYC is outside the scope of this workstream.</span></p>
+                <p class="ps7"><span class="ts5">The scope of this document is restricted to creation of new legal entities for existing clients (old-new) with credentials in IRIS, Intertrust entity admin users with credentials and appropriate privileges in NEC platform, and for entities from the following jurisdictions. The choice of jurisdictions have been made based on the existing volumes of entities serviced by jurisdiction:</span></p>
+                <p class="ps8"><span style="font-size: 11pt; color: Black">1.</span><span style="display: inline-block; width: 14px"></span><span class="ts5">US &ndash; State of Delaware</span></p>
+                <p class="ps8"><span style="font-size: 11pt; color: Black">2.</span><span style="display: inline-block; width: 14px"></span><span class="ts5">Netherlands</span></p>
+                <p class="ps8"><span style="font-size: 11pt; color: Black">3.</span><span style="display: inline-block; width: 14px"></span><span class="ts5">Luxembourg</span></p>
+                <p class="ps8"><span style="font-size: 11pt; color: Black">4.</span><span style="display: inline-block; width: 14px"></span><span class="ts5">Cayman</span></p>
+                <p class="ps8"><span style="font-size: 11pt; color: Black">5.</span><span style="display: inline-block; width: 14px"></span><span class="ts5">BVI</span></p>
+                <p class="ps8"><span style="font-size: 11pt; color: Black">6.</span><span style="display: inline-block; width: 14px"></span><span class="ts5">Singapore</span></p>
+                <p class="ps9"><span class="ts5">The business objectives are:</span></p>
+                <p class="ps8"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Increase the level of service to Intertrust clients globally</span></p>
+                <p class="ps8"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Improve the efficiency by managing the information in a digital form</span></p>
+                <p class="ps4"><span style="font-size: 16pt; color: Black">1.</span><span style="display: inline-block; width: 33px"></span><span class="ts3">References</span></p>
+                <p class="ps10">&nbsp;</p>
+                <p class="ps11"><span style="font-size: 11pt; color: Black">-</span><span style="display: inline-block; width: 20px"></span><span class="ts5">Business requirements gathering sessions with various product owners, service admin, compliance and legal groups, held between 1-Apr-2019 to 4-Apr-2019@ Intertrust Amsterdam, NL.</span></p>
+                <p class="ps11"><span style="font-size: 11pt; color: Black">-</span><span style="display: inline-block; width: 20px"></span><span class="ts5">Business requirements gathering sessions with various service admin, compliance and legal groups, held between 4-Mar-2019 to 15-Mar-2019@ Intertrust Amsterdam, NL.</span></p>
+                <p class="ps11"><span style="font-size: 11pt; color: Black">-</span><span style="display: inline-block; width: 20px"></span><span class="ts5">Meetings and break-out sessions held between 3-Dec-2018 to 6-Dec-2018 at VITEOS</span></p>
+                <p class="ps11"><span style="font-size: 11pt; color: Black">-</span><span style="display: inline-block; width: 20px"></span><span class="ts5">Briefing for VITEOS Visit DRAFT dated 27-Nov-2018</span></p>
+                <p class="ps12">&nbsp;</p>
+                <p class="ps12">&nbsp;</p>
+                <p class="ps4"><span style="font-size: 16pt; color: Black">1.</span><span style="display: inline-block; width: 33px"></span><span class="ts6">&nbsp;</span></p>
+                <p class="ps13"><span style="font-size: 16pt; color: Black">2.</span><span style="display: inline-block; width: 56px"></span><span class="ts3">Current (As-Is Process)</span></p>
+                <p class="ps14"><img width="986" height="629" alt="" src="images/image(1)(1).png" /></p>
+                <p class="ps6"><span class="ts7">&nbsp;</span></p>
+                <p class="ps15"><span class="ts5">This is a high level summary of the current processes followed.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">New entity creation requests are received over telephonic conversations and/or emails.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">In some jurisdictions (such as the US), the new entity incorporation request could be accompanied by completed, signed, scanned and PDF type copies of the pertinent government filing forms. </span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">The request initiation could be done directly by the client OR by a client-assigned outside counsel (law firm).</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Once a request is initiated, the client does not have an electronic, on-demand view into the status of the progress of the request.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Upon initiation of the request, the entity admin team for that jurisdiction is responsible for processing the request. The following tasks are done by the entity admin team upon initiation:</span></p>
+                <p class="ps16"><span style="font-family: 'Courier New'; font-size: 11pt; color: Black">o</span><span style="display: inline-block; width: 17px"></span><span class="ts5">Create the new entity master file in the respective instance of ViewPoint&nbsp; / NavOne for entity administration.</span></p>
+                <p class="ps16"><span style="font-family: 'Courier New'; font-size: 11pt; color: Black">o</span><span style="display: inline-block; width: 17px"></span><span class="ts5">Update the pipeline in InterAct (CRM tool) to track the sales cycle.</span></p>
+                <p class="ps16"><span style="font-family: 'Courier New'; font-size: 11pt; color: Black">o</span><span style="display: inline-block; width: 17px"></span><span class="ts5">In Aderant Expert / ViewPoint Practice Manager, create respective categories for corporate time writing for time spent on the new legal entity.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">The information received for relationship KYC (KYC of the legal entity to be incorporated) and identity KYC (KYC of natural individuals) of the new legal entity is reviewed. The client / outside counsel is informed of any gaps and/or insufficiencies in the KYC data. This could be an iterative process till the KYC data is complete and correct.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Identity KYC is performed specific to that entity and jurisdictional requirements. </span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">New entity relationship KYC is performed specific to that entity and jurisdictional requirements, including:</span></p>
+                <p class="ps16"><span style="font-family: 'Courier New'; font-size: 11pt; color: Black">o</span><span style="display: inline-block; width: 17px"></span><span class="ts5">Business risk analysis is done, resulting into low / medium / high risk ratings for the proposed new entity.</span></p>
+                <p class="ps16"><span style="font-family: 'Courier New'; font-size: 11pt; color: Black">o</span><span style="display: inline-block; width: 17px"></span><span class="ts5">For Intertrust to accept the business of new entity creation and its administration, the risk rating and underlying details undergo approval from a team which includes participation from Business, legal, Compliance and Risk Acceptance Committee (RAC). Depending on the jurisdiction, the RAC is involved only when the risk rating is medium or high.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">The information received for completing the jurisdiction specific incorporation forms for the new legal entity is reviewed. The client / outside counsel is informed of any gaps and/or insufficiencies in this data. Upon response from the client/outside counsel, the filing forms are completed in their entirety. This could be an iterative process till the time the data in the forms is complete and correct.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">The incorporation forms are signed by Intertrust and are sent to the client/outside counsel for their respective signatures.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">The client/outside counsel signs and sends back the forms to the entity admin team, who in turn submit the forms by courier or hand over the forms in person (depending on jurisdiction) at the jurisdiction specific government incorporation office, or submit to secure&nbsp; government/registrar portal.</span></p>
+                <p class="ps6"><span class="ts7">&nbsp;</span></p>
+                <p class="ps5">&nbsp;</p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">In certain jurisdictions, either due to the requirements as per the law of the land OR due to absence on Intertrust&rsquo;s physical presence in that jurisdiction, a notary, or third party affiliate, is required for incorporation. In such cases, the incorporation forms are completed either by Intertrust or the notary and are sent to the client/outside counsel for their signature.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">In case(s) where Intertrust directors are required /engaged for the proposed new entity, the appropriate director signatures from Intertrust are made on the form before sending them to the client/outside counsel for their signatures.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">The completed and signed forms are then submitted by Intertrust or the notary, as it may be standard operating procedure based on the jurisdiction, to the jurisdiction specific government incorporation office.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">If there are any issues pointed out by the specific government office on the documentation provided, Intertrust has a defined window of time (as per jurisdiction) to edit and fix the issues and revert back with the corrected filing documents.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Once incorporated, the confirmation email with the confirmation receipt received by Intertrust / notary is then shared with the client by email.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">The entity admin team adds the rest of the new entity setup details in the respective ViewPoint / NavOne instance.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">All filing client email exchanges related to the new entity, forms, operations documents and evidence of incorporation is uploaded into Laserfiche/other pertinent document management systems for the newly incorporated legal entity.</span></p>
+                <p class="ps12">&nbsp;</p>
+                <p class="ps4"><span style="font-size: 16pt; color: Black">1.</span><span style="display: inline-block; width: 33px"></span><span class="ts3">Proposed (To-Be Process)</span></p>
+                <p class="ps5">&nbsp;</p>
+                <p class="ps7"><span class="ts5">IRIS is a client facing portal provided by Intertrust to its clients.&nbsp; In order to provide self-service abilities as part of the proposed process, IRIS will capture the new entity creation requests using jurisdiction, entity type and service line defined web form, and also by means of completed / signed / scanned filing documents in PDF format. This request will be accessed and processed by the Intertrust admin through the NEC system. NEC will be used for internal Intertrust usage only. The NEC system will update the client about the progress and status of the new entity creation service request via IRIS. Intertrust admin users will also be always informed of the current status on NEC platform:</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">The client or outside counsel will be able to raise a specialized type of service request for incorporating a new legal entity on IRIS.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Service request forms will collect information required for the establishment of the new legal entity in order to complete the filing forms. The forms will also request information needed for the relationship KYC process. This relationship KYC information will then be available to the risk engine for entity risk assessment. In relation to any identity KYC required for directors (or other owners/controllers etc.), the identity KYC process for individuals even though is covered by the FastLane Phase 2.0 Individual Identity KYC work stream and is outside the scope of the NEC work stream. </span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">As a part of data collection for the new entity, one or more management (e.g. directors) can be added from a dropdown, if the individual already exists in the IRIS and NEC portfolio for the client. In case of a new individual who has yet to undergo identity KYC and is not in the existing list of owner/controllers to choose from, appropriate contact details (name, phone number, email id) of the &ldquo;target contact&rdquo; who will be able to provide identity KYC required data and documentation will be asked for and will need to be provided This will then be handed over to the identity KYC work stream to request more pertinent and elaborate data and documents which is outside the scope of the NEC work stream&nbsp; </span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Data collection for the new entity will also include compilation of the necessary data, and handing over the same to initiate the creation of the transaction profile for the new legal entity.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">For clients who are unwilling/unable to raise a service request on IRIS, and would like to continue with raising requests for new entity incorporations using phone calls and emails, the Intertrust entity admin teams will have the functionality to create a service request work order for new legal entity incorporation in the newly created New Entity Creation (NEC) platform. </span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">When the new service request is created on IRIS, NEC is updated with the new service request (via CDS). When the new request gets created on NEC, an acknowledgement is sent back to CDS with a new service request number, which gets concurrently updated on IRIS and Interact (CRM system).</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Functionality to incorporate multiple new entities in one service request / work order will be included.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Adding/editing/deleting a new entity request on NEC will update IRIS.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Once a service request is submitted on IRIS, it cannot be edited. Any edit needs will be done on the request in NEC by an authenticated entity admin user, on confirmation from the client.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">On every action on a request, appropriate notification will be sent to concerned parties. Notification includes on platform (IRIS and NEC) alerts as well as emails.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">The service request and the associated data can be saved as a draft, allowing the user to complete the form in parts, in several different login sessions. </span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">The data provided for risk assessment relationship KYC, target contact for identity KYC, data to create transaction profile and data to complete the filing forms, can be reviewed on NEC by entity admin personnel as well and can be sent back to the client / outside counsel on IRIS. </span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">For every question on the filing form, there are illustrative tool tips which will be helpful for the users to fill up the form. Tool tips are available on both IRIS and NEC.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Similarly, if the client / outside counsel has any queries on a given question on the web form (before submitting the request), they can reach out to the entity admin team on the specific question they need clarification on.&nbsp; Contacting the entity admin team on specific questions / concerns on a field will be a feature of the user interface on IRIS &ndash; this can include webchat intergrated on IRIS, for the client or outside counsel user to chat real time with a Intertrust support personnel.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">The entity admin team will also collect (where applicable for the new entity type in question) the necessary operations documents using IRIS and NEC for the new legal entity incorporation. The operational documents will be obtained as a part of entity admin information gathering for the new entity. </span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">The fields on the web form on both IRIS and NEC for which data will be collected will be driven by the new entity&rsquo;s jurisdiction (aka domicile), the legal entity type and the service line of the new entity. </span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Integration with individual identity KYC and risk engines to share necessary new owner-controller&nbsp; (if applicable) and new entity data automatically, respectively. Also, the relationship risk rating outcome will be fed back to the new entity creation workflow, following risk acceptance committee approval (required only when rating is medium or high).&nbsp; In case if there is no risk assessment automation (by means of the new proposed risk engine), the entity relationship KYC information is handed off manually.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Relationship KYC will be performed outside the scope of this workstream, via the current processes as it is done today.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Automatically decide based on jurisdiction/domicile if a notary will be required and channel the workflow accordingly.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Automatically decide the forms required for filing, based on jurisdiction/domicile and legal entity type and based on the internal mappings of data collected on web forms and the fields on the filing documents. Also, automatically populate the filing documents at the click of a button.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Once the documents are ready and reviewed by Intertrust, based on jurisdictional discretion they can be shared with the client or outside counsel in the exact same format in which they will be filed, for the client or the outside counsel to review and sign off. Once signed off, no change is permitted on the filing documents by the entity admin.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">The completed and client reviewed documents are then signed by Intertrust (depending on jurisdiction) and then shared with the client or the outside counsel to sign and revert back with</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Signatures permissible for a jurisdiction can be a combination of one or more of the following 3 types: a) wet, b) signed and scanned in PDF format, c) electronic signature.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">In cases where notaries are used, Intertrust hands over the documents to the notaries for signature. Note that notaries will not be users on the NEC and have to be shared documents for signature separately.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">Once all signatures are received, the forms are filed with the government for the new legal entity incorporation</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">The government shares the filing evidence embedded in the email confirmation from the state. The email may also include the invoice.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">On receipt of filing evidence from government or notary (when notary does the incorporation), ViewPoint / NavOne and LaserFiche / any other document management system are accordingly updated with the incremental information and documents respectively related to the incorporation of the new entity.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">This update on ViewPoint / NavOne and LaserFiche / any other document management system, automatically updates the new entity creation requests on IRIS with data and documents&nbsp; for the new entity service request and also on and NEC with data and link to Laserfische documents. The statuses are updated to &lsquo;Incorporated&rsquo; and the requests are enriched with the additional data and documents.</span></p>
+                <p class="ps11"><span style="font-family: Symbol; font-size: 11pt; color: Black">&#61623;</span><span style="display: inline-block; width: 19px"></span><span class="ts5">At this stage, the entity admin personnel can also share the details of the newly created entity (including documents) securely with anyone internal by way of email with a link into NEC.</span></p>
+                <p class="ps17">&nbsp;</p>
+                <p class="ps5">&nbsp;</p>
+                <p class="ps18"><span class="ts5">The following use cases are covered in the to-be process flow for New Entity Creation:</span></p>
+                <div>
+                  <table class="tbl3">
+                    <tr class="row0">
+                      <td class="cell0">
+                        <p class="ps19"><span class="ts8">Use Case ID</span></p>
+                      </td>
+                      <td class="cell1">
+                        <p class="ps19"><span class="ts8">Use Case Name</span></p>
+                      </td>
+                      <td class="cell2">
+                        <p class="ps19"><span class="ts8">Summary</span></p>
+                      </td>
+                      <td class="cell3">
+                        <p class="ps20"><span class="ts8">MoSCoW rating</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_01</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Request New Entity Creation </span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">A client user can place a service request for a new entity creation on the IRIS portal OR an ITG employee may place a service request on the client&rsquo;s behalf in NEC. </span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">M</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_02</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Request New Entity Creation</span></p>
+                        <p class="ps19"><span class="ts5">(Using prefilled/signed PDF documents)</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">A client user can place a service request for a new entity creation on the IRIS portal OR an ITG employee may place a request on the client&rsquo;s behalf in NEC. The service request will be entered into the respective portals as a completed, signed and scanned document in PDF format, ready to be filed. ITG admin teams will include review of the data in the forms and relationship KYC</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">S</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_03</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Review Service Request </span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">Entity admin team reviews data entered for new entity incorporation and ensures accuracy and completeness. This could be an iterative process between entity admin teams and clients / outside counsel.</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">M</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_04</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Add new fields on NEC screens and create mapping with filing documents and underlying fields</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">Authenticated &lsquo;superusers&rsquo; will map the &lsquo;jurisdiction + entity type&rsquo; to filing document fields. It will also provision to map a field on the web forms on IRIS / NEC and the ultimate filing documents for a given jurisdiction and entity type. NEC will also facilitate authorized users to add new fields for a given jurisdiction and entity type to be captured incrementally on screens of IRIS / NEC. The new field could be either for relationship KYC or due to changes in fields in the government filing forms.</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">M</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_05</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Configure process flow settings by jurisdiction</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">Depending on jurisdiction, NEC will facilitate to configure on screen:</span></p>
+                        <p class="ps21"><span style="font-size: 11pt; color: Black">(a)</span><span style="display: inline-block; width: 8px"></span><span class="ts5">Applicable risk approval groups</span></p>
+                        <p class="ps21"><span style="font-size: 11pt; color: Black">(b)</span><span style="display: inline-block; width: 8px"></span><span class="ts5">Filing forms</span></p>
+                        <p class="ps21"><span style="font-size: 11pt; color: Black">(c)</span><span style="display: inline-block; width: 8px"></span><span class="ts5">Acceptable signature formats </span><br /><span class="ts5">&nbsp;&nbsp;&nbsp;&nbsp; (wet, PDF, electronic)</span></p>
+                        <p class="ps21"><span style="font-size: 11pt; color: Black">(d)</span><span style="display: inline-block; width: 8px"></span><span class="ts5">Notary applicability</span></p>
+                        <p class="ps21"><span style="font-size: 11pt; color: Black">(e)</span><span style="display: inline-block; width: 8px"></span><span class="ts5">CAP meeting applicability</span></p>
+                        <p class="ps21"><span style="font-size: 11pt; color: Black">(f)</span><span style="display: inline-block; width: 10px"></span><span class="ts5">Includes review of the data before clicking &lsquo;Submit&rsquo; button (pop up screen)</span></p>
+                        <p class="ps21"><span style="font-size: 11pt; color: Black">(g)</span><span style="display: inline-block; width: 8px"></span><span class="ts5">Filing forms required to be reviewed by clients in PDF format to provide sign off to proceed with filing</span></p>
+                        <p class="ps21"><span style="font-size: 11pt; color: Black">(h)</span><span style="display: inline-block; width: 8px"></span><span class="ts5">Determine if Intertrust signature on filing forms required or not</span></p>
+                        <p class="ps21"><span style="font-size: 11pt; color: Black">(i)</span><span style="display: inline-block; width: 12px"></span><span class="ts5">Configure corporate time keeping</span></p>
+                        <p class="ps21"><span style="font-size: 11pt; color: Black">(j)</span><span style="display: inline-block; width: 12px"></span><span class="ts5">Timeline for completing the operational documents from the time of service</span></p>
+                        <p class="ps21"><span style="font-size: 11pt; color: Black">(k)</span><span style="display: inline-block; width: 8px"></span><span class="ts5">Timeline for reverting back to the government with corrections</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">M</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_06</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Provide Dossier to conduct CAP Meeting and receive results of CAP</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">In jurisdictions like Netherlands, the compliance team conducts CAP meeting using the KYC related information provided by the client on the new entity and new directors (when applicable). There is no prerequisite of KYC for the CAP meeting and the outcome of the meeting is a decision to proceed with the business of the new entity or not, purely based on the facts as provided by the client / outside counsel. The NEC platform will facilitate to provide the facts (one pager) collected on the new entity for the CAP meeting.</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">M</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_07</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Creation of the record (Ad ex, Viewpoint) to initiate the billing system</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">Placeholder on NEC to obtain commercial approval/ sign-off before formation to allow for corporate time keeping before the entity is formed.</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">M</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_08</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Creation and client review of filing forms </span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">Automatically populate the filing documents at the click of a button. Client / outside counsel reviews the jurisdiction/entity specific filing forms, once they have been completed, ensured as accurate for filing.</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">S</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_09</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Procure Operational Documents</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">Operational documents for new entity incorporation should be received in their entirety, reviewed and acknowledged by entity admin team. Depending upon jurisdiction, they may need to be filed either along with the rest of the incorporation filing documents and will need to be received within a specified number of days from the incorporation date (e.g. Cayman) or solely held as a part of KYC (US)</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">S</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_10</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Trigger Identity&nbsp; KYC</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">In case of a new management (director, officer, manager, member, general partner etc.) owner - controller, the system should dovetail with the Individual Identity KYC process (under development by the FastLane Phase 2.0 Individual Identity KYC workstream) such that it captures pertinent information and associated documents on the new management and then processes. Possibility of multiple new management for a new entity incorporation and their respective identity KYC records</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">M</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_11</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Trigger entity relationship KYC</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">For a new entity incorporation, the system should capture pertinent information and associated documents on the new entity, and pass that along to the applicable relationship KYC process</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">M</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_12</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Engage third party provider (notaries)</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">Notaries are used for incorporation, instead of Intertrust doing the same. This could happen either due to the legal and formal requirements of the jurisdiction (e.g. NL) or due to physical absence of Intertrust in the jurisdiction in question</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">S</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_13</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Obtain signature </span><br /><span class="ts5">(entity type dependent)</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">As a prerequisite for incorporation of a new legal entity, the filing forms should be signed as required in that jurisdiction (by the client and / or Intertrust). Development of an automated process of signature approvals will be integrated as a stand along &lsquo;plug in&rsquo; to be functional for other work flows and potentially marketed commercially.&nbsp; Digital signatures to be considered to facilitate new entity creation process and client support.&nbsp; Intertrust signs the forms if it handles the incorporation or in case when an external notary is involved to do the incorporation Intertrust signs if the client has chosen Intertrust personnel as a management for the new entity. Also, depending on jurisdiction, the signatures could be (a) wet OR (b) scanned version of signed original copies in PDF format. </span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">M</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_14</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">File with government</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">The completed and signed forms are filed at respective jurisdiction&rsquo;s government offices, either by courier or handed over in person. The filing happens outside the NEC portal but NEC has a placeholder to capture associated details on filing. If there are any issues with the forms as are reported by government, they are reverted back in the predefined time window. There would also be alerts to the entity admin teams to resubmit within the window.</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">M</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_15</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Obtain evidence of filing and update internal systems</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">On receipt of confirmation from government or notary (when notary does the incorporation), ViewPoint / NavOne and LaserFiche / any other document management system are accordingly updated (manually) with the incremental information and documents respectively related to the incorporation of the new entity (including related email exchanges with the client). The update of the internal systems (ViewPoint, LaserFiche etc.) will remain manual in phase 1.</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">M</span></p>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <p class="ps6"><span class="ts7">&nbsp;</span></p>
+                <p class="ps5">&nbsp;</p>
+                <div>
+                  <table class="tbl3">
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_16</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Propagate confirmation to client and other details (IRIS and NEC)</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">This update on ViewPoint / NavOne and LaserFiche / any other document management system, automatically updates the new entity creation requests on IRIS and NEC. The statuses are updated to &lsquo;Incorporated&rsquo; and the requests are enriched with the additional data and documents. At this stage, the entity admin personnel can also share the details of the newly created entity (including documents) securely with anyone internal as well as external.</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">M</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_17</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Change Legal Entity Agent </span></p>
+                        <p class="ps19"><span class="ts9">(to be removed &ndash; to plan for phase 2)</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">Current clients with multiple service providers may decide to change agent to align all entities with Intertrust. These are existing entities and before changing agent, Intertrust just to accept the new entity business and perform relationship KYC and risk assessments before the transfer or change of agent is filed.</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">W</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_18</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Change Legal Entity Domicile </span></p>
+                        <p class="ps19"><span class="ts9">(to be removed &ndash; to plan for phase 2)</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">An entity administered by Intertrust, on client&rsquo;s request, may need to be converted / redomiciled to a different jurisdiction. In such cases all client and entity related information is already available with Intertrust. Additional relationship KYC and risk assessment must be done before the re-domiciliation for any new entity.</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">W</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_19</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Clone existing entity</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">When a legal entity incorporation request is similar to an existing incorporated entity for a given jurisdiction and entity type, the system should facilitate the client / outside council user on IRIS and Intertrust entity admin user on NEC to use the attributes of this incorporated entity to prefill the request for the new entity on the web form. Once prefilled, the data in the web form should be editable to make the necessary changes to fit/suit the needs of the new entity.</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">C</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_20</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Bulk excel upload new entity request </span><span class="ts9">(to be removed &ndash; to plan for phase 2)</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">When the client approaches Intertrust with incorporation request for multiple entities at the same time, it may be time consuming to enter the details of all the entities on the web form, one by one. A simpler and faster way is to have the data for the new entities to be incorporated in a predefined excel template and then upload that template into IRIS or NEC (whichever the case may be). Once bulk uploaded, the data in the web form should be editable to make changes if any before submitting.</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">W</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_21</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Create reports on new entity creation module (needs Renee input) &ndash; in progress..</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">Reporting module on NEC for reporting against the new entity request data. Details of report topics to be covered in functional documentation.</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts5">S</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell4">
+                        <p class="ps19"><span class="ts5">NEC_22</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Notify clients/outside counsel (on IRIS) and entity admin users (on NEC)</span></p>
+                      </td>
+                      <td class="cell6">
+                        <p class="ps19"><span class="ts5">In the life of the new entity creation workflow, both the NEC users and the IRIS users would need to be notified of completion of steps within the workflow and also notified on action items. On an identified set of triggers, the configuration of notification (whether IRIS/NEC/both, which channels of notification &ndash; email/on system/ service request status update/all 3 and text per channel) will be different for different client groups (as determined by the client representatives)</span></p>
+                      </td>
+                      <td class="cell7">
+                        <p class="ps20"><span class="ts7">&nbsp;</span></p>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <p class="ps5">&nbsp;</p>
+                <p class="ps6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p class="ps6"><span class="ts7">&nbsp;</span></p>
+                <p class="ps6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p class="ps4"><span style="font-size: 16pt; color: Black">1.</span><span style="display: inline-block; width: 33px"></span><span class="ts3">System Requirements</span></p>
+                <p class="ps6"><span class="ts5">New Entity Creation (NEC) will have interface with the following applications / systems</span></p>
+                <p class="ps12">&nbsp;</p>
+                <div>
+                  <table class="tbl4">
+                    <tr class="row0">
+                      <td class="cell0">
+                        <p class="ps19"><span class="ts8">Name of the application</span></p>
+                      </td>
+                      <td class="cell1">
+                        <p class="ps19"><span class="ts8">Purpose of interface</span></p>
+                      </td>
+                      <td class="cell2">
+                        <p class="ps19"><span class="ts8">Interface type</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell3">
+                        <p class="ps19"><span class="ts5">IRIS</span></p>
+                      </td>
+                      <td class="cell4">
+                        <p class="ps22"><span class="ts5">To facilitate new entity incorporation requests and provide notifications and pertinent information at all stages during the lifecycle of corporation</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Functional</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell3">
+                        <p class="ps19"><span class="ts5">Relationship KYC</span></p>
+                      </td>
+                      <td class="cell4">
+                        <p class="ps22"><span class="ts5">Propagate necessary data and documents to perform KYC, which was collated on IRIS / NEC</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Functional</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell3">
+                        <p class="ps19"><span class="ts5">Risk Engine</span></p>
+                      </td>
+                      <td class="cell4">
+                        <p class="ps22"><span class="ts5">Propagate necessary data and documents to perform risk assessment, which was collated on IRIS / NEC</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Functional</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell3">
+                        <p class="ps19"><span class="ts5">Authentication and authorization module </span><br /><span class="ts5">(to be decided)</span></p>
+                      </td>
+                      <td class="cell4">
+                        <p class="ps22"><span class="ts5">To authenticate and authorize a user for data and functionalities on NEC</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Non-functional</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell3">
+                        <p class="ps19"><span class="ts5">Email server</span></p>
+                      </td>
+                      <td class="cell4">
+                        <p class="ps22"><span class="ts5">Send email notifications to concerned parties in the event of new entity request, as well as edit of an existing entity request on IRIS or NEC</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Non-functional</span></p>
+                      </td>
+                    </tr>
+                    <tr class="row0">
+                      <td class="cell3">
+                        <p class="ps19"><span class="ts5">Master Data Management </span></p>
+                        <p class="ps19"><span class="ts5">(to be decided)</span></p>
+                      </td>
+                      <td class="cell4">
+                        <p class="ps22"><span class="ts5">Single source of reference data to be used by all functional applications</span></p>
+                      </td>
+                      <td class="cell5">
+                        <p class="ps19"><span class="ts5">Non-functional</span></p>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <p class="ps3"><span class="ts2">&nbsp;</span></p>
+              </td>
+              <td class="cell0">
+                <p>&nbsp;</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell3">
+                <p>&nbsp;</p>
+              </td>
+              <td class="cell4">
+                <p class="ps23"><span class="ts10">Copyright &copy; 2019 </span></p>
+              </td>
+              <td class="cell5">
+                <p>&nbsp;</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+      <td class="cell0">
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p class="ps24"><br /></p>
+<div>
+  <hr class="hline0" />
+</div>
+<p class="ps25"><span class="ts11">Created with an evaluation copy of HelpSmith.</span><br /><span class="ts11">To remove this notice, you should </span><a href="http://www.helpsmith.com/buynow.php" target="_blank" class="hs0">purchase the full version</a><span class="ts11">&nbsp;of the product.</span></p>
+</body>
+</html>
