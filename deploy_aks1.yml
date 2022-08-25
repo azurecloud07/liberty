@@ -1,0 +1,65 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+name: Websphere-Liberty
+spec:
+replicas: 1
+template:
+metadata:
+labels:
+app: Websphere-Liberty1
+spec:
+containers:
+– name: pocacrliberty
+image: poc_websphere-image
+ports:
+– containerPort: 9080
+name:redis
+- apiVersion:v1
+kind: Service
+metadata:
+name: Websphere-Liberty1
+spec:
+ports:
+– port: 9080
+selector:
+app: Websphere-Liberty
+- apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+name: Websphere-Liberty1
+spec:
+replicas: 1
+strategy:
+rollingUpdate:
+maxSurge: 1
+maxUnavailable: 1
+minReadySeconds: 5
+template:
+metadata:
+labels:
+app: Websphere-Liberty1
+spec:
+containers:
+– name: pocacrliberty.azurecr.io
+image: poc_websphere-image:latestversion
+ports:
+– containerPort: 9080
+resources:
+requests:
+cpu: 250m
+limits:
+cpu: 500m
+env:
+– name: REDIS
+value: “Websphere-Liberty1”
+— apiVersion: v1
+kind: Service
+metadata:
+name: Websphere-Liberty1
+spec:
+type: LoadBalancer
+ports:
+– port: 9080
+selector:
+app: Websphere-Liberty1
